@@ -198,8 +198,6 @@ a {
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase; }
-    .drop-cart__product-quantity-price _x {
-      font-size: 10px; }
   .drop-cart__product-action {
     color: #c0c0c0;
     font-size: 16px;
@@ -333,7 +331,7 @@ a {
   height: 613px;
   background-color: #e8e8e8; }
   .promo__content {
-    background-image: url(img/brand_back.jpg);
+    background-image: url(../img/brand_back.jpg);
     height: 100%;
     background-position: 0 -51px; }
   .promo .promo__text {
@@ -369,16 +367,16 @@ a {
     .category-menu__item:hover {
       transform: scale(1.03); }
   .category-menu__item:nth-child(1) {
-    background-image: url(img/badge_banner-1.jpg);
+    background-image: url(../img/badge_banner-1.jpg);
     height: 542px; }
   .category-menu__item:nth-child(2) {
-    background: #dadad2 url(img/badge_banner-2.jpg) no-repeat 149px 0;
+    background: #dadad2 url(../img/badge_banner-2.jpg) no-repeat 149px 0;
     height: 261px; }
   .category-menu__item:nth-child(3) {
-    background-image: url(img/badge_banner-3.jpg);
+    background-image: url(../img/badge_banner-3.jpg);
     height: 261px; }
   .category-menu__item:nth-child(4) {
-    background-image: url(img/badge_banner-4.jpg);
+    background-image: url(../img/badge_banner-4.jpg);
     height: 542px; }
   .category-menu__badge {
     color: #222222;
@@ -521,7 +519,7 @@ a {
   margin: 0 auto 97px; }
 .offer-for-women__left {
   width: 767px;
-  background-image: url(img/offer_for_women.jpg); }
+  background-image: url(../img/offer_for_women.jpg); }
 .offer-for-women__text {
   color: #ffffff;
   font-size: 54px;
@@ -557,7 +555,7 @@ a {
 .subscribe {
   height: 438px;
   width: 1600px;
-  background-image: url(img/subscribe_wallp.jpg);
+  background-image: url(../img/subscribe_wallp.jpg);
   background-position: -10px 0;
   margin: 0 auto; }
   .subscribe__content {
@@ -609,17 +607,14 @@ a {
     text-align: center; }
   .subscribe__right-content-text-1 {
     color: #222224;
-    font-size: 14px;
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 0.6px;
-    text-transform: uppercase;
-    letter-spacing: 0.35px; }
+    text-transform: uppercase; }
   .subscribe__right-content-text-2 {
     color: #222224;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.6px;
     text-transform: uppercase;
     letter-spacing: 0.35px; }
   .subscribe__email-form {
@@ -821,7 +816,6 @@ a {
   display: flex;
   justify-content: center;
   color: #b9b9b9;
-  font-family: Lato;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
@@ -881,19 +875,19 @@ a {
 .product__add-to-cart-img {
   width: 40px;
   height: 26px;
-  background: #ffffff url("img/cart-pink.svg") no-repeat; }
+  background: #ffffff url("../img/cart-pink.svg") no-repeat; }
 .product__add-to-cart-button:hover {
   border: 1px solid #ffffff;
   background-color: #f16d7f;
   color: #ffffff; }
 .product__add-to-cart-button:hover .product__add-to-cart-img {
-  background: #f16d7f url("img/cart-2.svg") no-repeat; }
+  background: #f16d7f url("../img/cart-2.svg") no-repeat; }
 .product__add-to-cart-button:active {
   border: 1px solid #f16d7f;
   background-color: #ffffff;
   color: #f16d7f; }
 .product__add-to-cart-button:active .product__add-to-cart-img {
-  background: #ffffff url("img/cart-pink.svg") no-repeat; }
+  background: #ffffff url("../img/cart-pink.svg") no-repeat; }
 
 .also-like__head {
   color: #4d4d4d;
@@ -1380,7 +1374,7 @@ a {
     width: 14px;
     height: 14px;
     margin-right: 15px;
-    background-image: url(img/chkbx_true.svg); }
+    background-image: url(../img/chkbx_true.svg); }
 .checkout__details-radio-label {
   color: #222222;
   font-size: 12px;
@@ -1394,7 +1388,7 @@ a {
     width: 14px;
     height: 14px;
     margin-right: 15px;
-    background-image: url(img/chkbx_false.svg); }
+    background-image: url(../img/chkbx_false.svg); }
 .checkout__details-link {
   display: block;
   color: #b3b2b2;
@@ -1418,7 +1412,7 @@ a {
     color: #f16d7f;
     cursor: pointer; }
   .checkout__details-btn_right {
-    margin-top: 0px; }
+    margin-top: 0; }
 .checkout__details-input-label {
   color: #222222;
   font-size: 12px;
